@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Оюутны Портал | Лаб 4</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER + NAVIGATION (Flexbox) -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#">Оюутны Портал</a>
+      <nav class="main-nav" aria-label="Үндсэн цэс">
+        <ul class="nav-list">
+          <li><a href="#" class="active">Нүүр</a></li>
+          <li><a href="#">Хичээлүүд</a></li>
+          <li><a href="#">Мэдээ</a></li>
+          <li><a href="#">Хуваарь</a></li>
+          <li><a href="#">Холбоо барих</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ХУУДАСНЫ ҮНДСЭН BYTSAS (Grid: main + sidebar) -->
+  <div class="layout">
+
+    <main class="content">
+      <section class="intro">
+        <h1>Сургалтын шинэ улирал эхэллээ</h1>
+        <p>Хичээлийн материал, хуваарь, мэдээллээ нэг дороос аваарай.</p>
+      </section>
+
+      <!-- КАРТУУД (Grid: 3 багана) -->
+      <section class="cards" aria-label="Онцлох хичээлүүд">
+        <article class="card">
+          <h2>Веб зохион бүтээлт</h2>
+          <p>HTML, CSS болон Flexbox, Grid ашиглан хуудасны бүтэц зохиох.</p>
+          <a href="#" class="card-link">Дэлгэрэнгүй</a>
+        </article>
+        <article class="card">
+          <h2>Мэдээллийн систем</h2>
+          <p>Өгөгдлийн сангийн загварчлал, системийн шинжилгээ.</p>
+          <a href="#" class="card-link">Дэлгэрэнгүй</a>
+        </article>
+        <article class="card">
+          <h2>Алгоритм</h2>
+          <p>Эрэмбэлэх, хайх алгоритм болон хугацааны төвөгтэй байдал.</p>
+          <a href="#" class="card-link">Дэлгэрэнгүй</a>
+        </article>
+        <article class="card">
+          <h2>Мэдээллийн аюулгүй байдал</h2>
+          <p>Фишинг, нууц үгийн хамгаалалт, эрсдэлийн үнэлгээ.</p>
+          <a href="#" class="card-link">Дэлгэрэнгүй</a>
+        </article>
+        <article class="card">
+          <h2>Компьютерийн сүлжээ</h2>
+          <p>IP хаяг, чиглүүлэлт, сүлжээний үндсэн протоколууд.</p>
+          <a href="#" class="card-link">Дэлгэрэнгүй</a>
+        </article>
+        <article class="card">
+          <h2>Программчлал</h2>
+          <p>Объект хандлагат программчлал ба жижиг төслүүд.</p>
+          <a href="#" class="card-link">Дэлгэрэнгүй</a>
+        </article>
+      </section>
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <section class="widget">
+        <h2>Сүүлийн мэдээ</h2>
+        <ul class="news-list">
+          <li>Лабораторийн тайлан хүлээн авах хугацаа сунгагдлаа</li>
+          <li>Шинэ улирлын хичээлийн хуваарь гарлаа</li>
+          <li>Номын сангийн цагийн өөрчлөлт</li>
+        </ul>
+      </section>
+      <section class="widget">
+        <h2>Хурдан холбоос</h2>
+        <ul class="news-list">
+          <li><a href="#">Дүнгийн мэдээлэл</a></li>
+          <li><a href="#">Тусламж авах</a></li>
+          <li><a href="#">Анкет засах</a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+
+  <!-- FOOTER (Flexbox) -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Оюутны Портал. Бүх эрх хуулиар хамгаалагдсан.</p>
+      <ul class="footer-links">
+        <li><a href="#">Нууцлал</a></li>
+        <li><a href="#">Тусламж</a></li>
+        <li><a href="#">Холбоо барих</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
